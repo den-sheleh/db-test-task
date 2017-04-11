@@ -3,7 +3,7 @@ import RedisClient from './RedisClient'
 import MysqlClientAsync from './MysqlClientAsync'
 import DbClient from './DbClient'
 
-export class DbClientFactory {
+class DbClientFactory {
   public static createClient(config: Config): DbClient {
     let client;
 
@@ -16,3 +16,5 @@ export class DbClientFactory {
     return client;
   }
 }
+
+export default DbClientFactory;
