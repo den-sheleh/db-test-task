@@ -3,3 +3,5 @@ class MysqlClient {
     callback(null, { test: 1 });
   }
 }
+
+export default MysqlClient;
