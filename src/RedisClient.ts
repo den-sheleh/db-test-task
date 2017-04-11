@@ -1,5 +1,5 @@
-export class RedisClient {
+class RedisClient implements DbClient {
   async getValue() {
-    return Promise.resolve({test: 1});
+    return Promise.resolve({ test: 1 });
   }
 }
