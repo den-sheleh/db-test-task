@@ -1,7 +1,7 @@
-interface Config {
-  dbType: "redis" | "mysql"
+export interface Config {
+  dbType: 'redis' | 'mysql'
 }
 
-export const config = {
-  dbType: "mysql"
+export const config = <Config>{
+  dbType: 'mysql'
 }

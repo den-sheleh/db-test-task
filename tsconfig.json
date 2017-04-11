@@ -12,7 +12,7 @@
     "pretty": true,
     "target": "es2017",
     "lib": [
-    "es7"
+      "es6"
     ]
   }
 }
