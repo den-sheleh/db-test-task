@@ -1,18 +1,18 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "noImplicitAny": true,
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "inlineSources": true,
-        "inlineSourceMap": true,
-        "noEmit": true,
-        "pretty": true,
-        "target": "es2017",
-        "lib": [
-            "es7"
-        ]
-    }
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "noEmit": true,
+    "pretty": true,
+    "target": "es2017",
+    "lib": [
+    "es7"
+    ]
+  }
 }

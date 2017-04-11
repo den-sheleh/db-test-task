@@ -1,5 +1,5 @@
 export class RedisClient {
-    async getValue() {
-        return Promise.resolve({test: 1});
-    }
+  async getValue() {
+    return Promise.resolve({test: 1});
+  }
 }
